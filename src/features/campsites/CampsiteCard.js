@@ -5,7 +5,7 @@ const CampsiteCard = (props) => {
         <Card>
             <CardImg
                 width='100%'
-                src={props.campsite.img}
+                src={props.campsite.image}
                 alt={props.campsite.name}
             />
             <CardImgOverlay>
